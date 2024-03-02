@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f1f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 80%;
+  max-width: 400px;
+  background-color: #a1d6e2;
+  padding: 15px 100px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #262f30; /* Adjust title color */
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  font-size: 16px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-field input:focus {
+  outline: none;
+  border-color: #1995ad;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.radio-group,
+.checkbox-group {
+  margin-bottom: 20px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+
+.radio-group input[type="radio"],
+.checkbox-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 20px; /* Add margin to the top of the button */
+  width: 100%; /* Make button full width */
+  padding: 12px 0; /* Adjust padding */
+  background-color: #1995ad;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
